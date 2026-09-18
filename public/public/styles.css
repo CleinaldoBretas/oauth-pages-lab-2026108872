@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 24px;
+  display: grid;
+  place-items: center;
+  background: #1d252b;
+  color: #222;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  width: min(100%, 440px);
+  padding: 36px;
+  border-top: 6px solid #b88b45;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.5);
+}
+
+.tag {
+  color: #9a7137;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+
+h1 {
+  margin: 10px 0 20px;
+}
+
+#status {
+  padding: 14px;
+  border-left: 4px solid #b88b45;
+  background: #f2f0ec;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  padding: 13px;
+  border: 0;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.google {
+  background: #c63c32;
+}
+
+.github {
+  background: #24292f;
+}
+
+.logout {
+  background: #9a7137;
+}
+
+.notice {
+  margin-top: 24px;
+  color: #666;
+  font-size: 13px;
+  line-height: 1.5;
+}
