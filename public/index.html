@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laboratório OAuth</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <main class="card">
+    <p class="tag">LABORATÓRIO OAUTH</p>
+    <h1>Área de autenticação</h1>
+
+    <p id="status">Verificando sua sessão...</p>
+
+    <div id="login-options">
+      <a class="button google" href="/oauth/login/google">
+        Entrar com Google
+      </a>
+
+      <a class="button github" href="/oauth/login/github">
+        Entrar com GitHub
+      </a>
+    </div>
+
+    <form id="logout-form" action="/oauth/logout" method="post" hidden>
+      <button class="button logout" type="submit">Sair</button>
+    </form>
+
+    <p class="notice">
+      Os arquivos estáticos continuam públicos. A sessão protege somente as
+      rotas dinâmicas.
+    </p>
+  </main>
+</body>
+</html>
